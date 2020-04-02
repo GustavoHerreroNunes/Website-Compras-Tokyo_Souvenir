@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Tokyo Souvenir</title>
+		<link rel="stylesheet" type="text/css" href="css/Formulario-4.css"/>
+	</head>
+	<body>
+	<center>
+		<form action="PHPs/cupom.php" method="POST" id="Form">
+			<h3>Tokyo Souvenir</h3>
+			<table border=3 cellspacing=0 cellpadding=10 style="border-color:rgb(85, 26, 139); border-radius:25px;margin-top:20px;">
+				<tr>
+					<td><img src="Imagens/Globo.jpg" /></td>
+					<td><img src="Imagens/Chaveiro.jpg" /></td>
+					<td><img src="Imagens/Poof.jpg" /></td>
+				</tr>
+				<tr>
+					<td>1<br>Preço: R$:25,00</td>
+					<td>2<br>Preço: R$:7,50</td>
+					<td>3<br>Preço: R$:59,99</td>
+				</tr>
+			</table>
+			
+			<br><br>
+			Selecione um porduto para compra:
+			<select name="produto">
+				<option value=" ">
+				<option value="1">Globo Tokyo Tower
+				<option value="2">Chaveiros Comemorátivos
+				<option value="3">Pelúcias
+			</select>
+			<br><br>
+			Escolha um Cupom para descontos:
+			<br><br>
+			<input type="text" name="cupomP" size="10">
+			<br><br>
+			<i style="font-size:13px;">Cupons:<br>uxr23 - 20% || abf432 - 10% || 23bc - 35% || cupom123 - 70%</i>
+			<br><br>
+			<input type="submit" value="Comprar">
+		</form>
+	</center>
+	</body>
+</html>

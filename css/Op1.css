@@ -1,0 +1,30 @@
+/*Css para configurar a modelagem do(s) arquivo(s):
+												-"Exercicio_3.php"
+*/
+ @charset="UTF-8";
+/*div Principal*/
+div#phpV{
+	font-family: Verdana;
+	font-size:12pt;
+	color: rgb(0, 0, 0);
+	width: 430px;
+	background-color: rgba(255, 255, 255, 1);
+	border:7px;
+	border-style:inset;
+	border-top-color: rgb(24, 116, 205);
+	border-left-color: rgb(30, 144, 255);
+	border-radius: 16px;
+	padding:8.5px;
+	margin-top:130px;
+}
+/*p para Título*/
+div#phpV p#Tit{
+	color: rgb(8, 122, 233);
+	font-family:Bahnschrift;
+	font-size:20pt;
+}
+
+/*Vals - tag para valores das variáveis*/
+Vals{
+	color: rgb(120, 120, 120);
+}

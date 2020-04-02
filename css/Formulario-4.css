@@ -1,0 +1,17 @@
+ @charset="UTF-8";
+
+
+form#Form {
+	font-family:Arial;
+	font-size:12pt;
+	margin-top:130px;
+	border:7px;
+	border-style:inset;
+	border-left-color:rgb(191, 62, 255);
+	border-top-color:rgb(154, 50, 205);
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	width:1000px;
+	border-radius:20px;
+}
